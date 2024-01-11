@@ -7,9 +7,9 @@ dataSources:
   - kind: ethereum
     network: sepolia
     event:
-      - address: "cc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5"
+      - address: "0xfD06cd5c540d3c7BB78C9Da92ebC4071B0C7915d"
         events:
-          - "Burn(address,uint256)"
+          - "Transfer(address,address,uint256)"
 
 mapping:
   language: wasm/assemblyscript
@@ -19,4 +19,4 @@ mapping:
 dataDestinations:
   - kind: ethereum
     network: goerli
-    address: "0x8a5A92d4D7E0494efEac7D9ab736dDa946CcFf3e"
+    address: "0x18153f8b5D93d9d6dfE8740E62d3a7457C538f64"
